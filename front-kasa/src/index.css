@@ -11,13 +11,11 @@
     --color1 : #FF6060;
 }
 
-body {
-    margin: 20px;
-}
 .header  {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 20px;
 }
 
 .header-logo {
@@ -37,6 +35,20 @@ body {
     text-decoration: none;
     color: var(--color1);
     position: relative;
+}
+
+@media (min-width: 700px) {
+    .heaer-logo {
+        width: 210px;
+        height: 68px;
+    }
+    .header-nav {
+        width: 309px;
+    }
+    .header-link {
+        text-transform: capitalize;
+        font-size: 24px;
+    }
 }
 
 .header-link::after {
@@ -61,4 +73,21 @@ body {
 
 .link-active {
     text-decoration: underline;
+}
+
+footer {
+    background: #000;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    background: transparent;
+}
+
+footer p {
+    color: #fff;
 }

@@ -4,7 +4,6 @@
     align-items: center;
     border-radius: 10px;
     height: 111px;
-    width: 100%;
     position: relative;
     background: linear-gradient(180deg, rgba(255,255,255, .3) 35%, rgba(0,0,0, .3) 80%);
 
@@ -29,13 +28,17 @@
 }
 
 section {
-    margin: 20px 0;
+    margin: 20px;
 }
 
 @media (min-width: 700px) {
     #intro h1 {
         font-size: 48px;
     }
+    #intro {
+        height: 223px;
+    }
+
 }
 
 
