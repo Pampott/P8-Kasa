@@ -1,4 +1,4 @@
-export const itemList = [
+const itemList = [
 	{
 		"id": "c67ab8a7",
 		"title": "Appartement cosy",
@@ -617,3 +617,5 @@ export const itemList = [
 		]
 	}
 ]
+
+export default itemList
